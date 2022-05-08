@@ -20,7 +20,12 @@ public class BookController {
 
     @GetMapping
     public String featureBranch(){
-        return "Second_Book";
+        return "Feature branch";
+    }
+
+    @GetMapping
+    public String featureBranch2(){
+        return "Feature branch 2";
     }
 
 
