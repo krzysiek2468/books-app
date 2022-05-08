@@ -12,4 +12,11 @@ public class BookController {
     public String getBook(){
         return "Book";
     }
+
+    @GetMapping
+    public String getSecondBook(){
+        return "Second_Book";
+    }
+
+
 }
