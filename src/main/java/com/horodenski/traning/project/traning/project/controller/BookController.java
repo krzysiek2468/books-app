@@ -18,5 +18,8 @@ public class BookController {
         return "Second_Book";
     }
 
-
+    @GetMapping
+    public String mian(){
+        return "main";
+    }
 }
