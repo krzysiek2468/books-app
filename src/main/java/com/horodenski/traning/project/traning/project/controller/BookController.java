@@ -28,6 +28,11 @@ public class BookController {
         return "Feature branch 2";
     }
 
+    @GetMapping
+    public String newBranch2(){
+        return "New branch 2";
+    }
+
 
     @GetMapping
     public String mian(){
