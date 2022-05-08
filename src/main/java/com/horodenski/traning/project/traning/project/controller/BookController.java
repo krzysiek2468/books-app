@@ -18,5 +18,19 @@ public class BookController {
         return "Second_Book";
     }
 
+    @GetMapping
+    public String featureBranch(){
+        return "Feature branch";
+    }
 
+    @GetMapping
+    public String featureBranch2(){
+        return "Feature branch 2";
+    }
+
+
+    @GetMapping
+    public String mian(){
+        return "main";
+    }
 }
