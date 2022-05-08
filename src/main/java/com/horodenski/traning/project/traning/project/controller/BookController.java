@@ -19,6 +19,12 @@ public class BookController {
     }
 
     @GetMapping
+    public String featureBranch(){
+        return "Second_Book";
+    }
+
+
+    @GetMapping
     public String mian(){
         return "main";
     }
