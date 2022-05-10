@@ -18,5 +18,8 @@ public class BookController {
         return "Second_Book";
     }
 
-
+    @GetMapping
+    public String getSecondBook2(){
+        return "Second_Book";
+    }
 }
