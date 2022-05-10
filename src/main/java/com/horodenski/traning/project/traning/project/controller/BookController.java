@@ -35,7 +35,7 @@ public class BookController {
 
 
     @GetMapping
-    public String mian2(){
+    public String mian66(){
         return "main";
     }
 
