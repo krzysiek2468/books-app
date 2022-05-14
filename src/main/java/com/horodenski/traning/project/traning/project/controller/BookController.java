@@ -38,4 +38,9 @@ public class BookController {
     public String mian2(){
         return "main";
     }
+
+    @GetMapping
+    public String mian22(){
+        return "main";
+    }
 }
